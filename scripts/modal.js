@@ -1,66 +1,125 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    facebrain: {
-      title: 'Face Brain',
-      tag: 'FACE RECOGNITION',
+    parallaxPortfolio: {
+      title: 'Parallax Portfolio',
+      tag: 'COLORFUL PORTFOLIO ',
       detail:
-        'Face Brain recognise faces from any picture.',
-      link: 'https://face-brain.github.io',
-      link2: 'https://github.io/Zee-al-eid/'
+        'Playful and Colorful One-Page portfolio featuring Parallax effects and animations and have Light/Dark mode.',
+      link: 'https://parallax-portfolio.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/parallax-portfolio'
     },
-    ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+    awesomePortfolio: {
+      title: 'Awesome Portfolio',
+      tag: 'CLEAN AND MODERN PORTFOLIO',
       detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260',
-      link2: 'https://github.io/Zee-al-eid/chownow/'
+        'A clean, beautiful and responsive portfolio featuring Modern UI Design, Reveal Animations and User-Friendly Interface.',
+      link: 'https://fast-awesome-portfolio.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/awesome-portfolio'
     },
-    newrelic: {
-      title: 'NewRelic.com',
-      tag: 'APPLICATION PERFORMANCE MONITORING.',
+    hostee: {
+      title: 'Hostee Website',
+      tag: 'FAKE WEB HOSTING',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.newrelic.com'
+        'A Modern and very User-Friendly website with full responsiveness featuring animations, amazing cards and content menu.',
+        link: 'https://zee-al-eid.github.io/hostee-website/',
+        link2: 'https://github.com/Zee-al-eid/hostee-website'
     },
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
+    gradientGenerator: {
+      title: 'Gradient Generator',
+      tag: 'TOOL TO GENERATE BACKGROUNDS GRADIENTS',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+        'Gradient Generator is a happy little website and free tool that lets you generates a perfect color gradient and the fitting css code.',
+      link: 'https://zee-al-eid.github.io/gradient-generator/',
+        link2: 'https://github.com/Zee-al-eid/gradient-generator'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
+    randomColor: {
+      title: 'Random Color Generator',
+      tag: 'GENERATES A RANDOM COLOR',
       detail:
-        'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
+        'JavaScript color generator designed to be lightweight, fast and easy to use that generates random color.',
+      link: 'https://random-color-generator-javascript.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/random-color-generator'
     },
-    powur: {
-      title: 'Powur.com',
-      tag: 'CONSUMER POWERED MARKETING.',
+    reviewsSlider: {
+      title: 'Reviews Slider',
+      tag: 'ANIMATED REVIEWS / TESTMONIALS SLIDER',
       detail:
-        'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
+        'Testimonials and reviews are a great way to add social proof to your website and help build trust among your users. ',
+      link: 'https://reviews-slider.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/reviews-slider'
     },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
+    darkLightMode: {
+      title: 'Dark/Light Mode',
+      tag: 'TOGGLE B/W DARK AND LIGHT MODE',
       detail:
-        'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
+        'Switch between dark and light mode with CSS and JavaScript. Dark mode uses light-colored text and other elements on dark-colored background.',
+        link: 'https://zee-al-eid.github.io/dark-light-mode/',
+        link2: 'https://github.com/Zee-al-eid/dark-light-mode'
     },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
+    qna: {
+      title: 'Q-n-A / FAQ',
+      tag: 'MODERN FAQ SECTION',
       detail:
-        'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
+        'Identifying and answering searchers’ questions should be a key component of any SEO strategy.',
+      link: 'https://q-n-a.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/Q-n-A'
     },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
+    tabsMenu: {
+      title: 'Tabs Menu',
+      tag: 'SIMPLE MENU WITH TABS',
       detail:
-        'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
+        'Menus need to be simple enough to understand that allow customers to effortlessly go through the process of viewing & purchasing products.',
+      link: 'https://tab-menu-javascript-zee.netlify.app/',
+      link2: 'https://github.com/Zee-al-eid/tab-menu-javascript'
+    },
+    elasticSlider: {
+      title: 'Slider | Elastic Transiton',
+      tag: 'CHANGES IMAGES WITH ELASTICITY EFFECT',
+      detail:
+        'Sliders can run slideshows automatically without user input on pre-defined time intervals and also respond to user interaction like click.',
+      link: 'https://zee-al-eid.github.io/elastic-slider/slider.html',
+      link2: 'https://github.com/Zee-al-eid/elastic-slider'
+    },
+    shuffleSlider: {
+      title: 'Slider | Shuffle Transiton',
+      tag: 'CHANGES IMAGES WITH SHUFFLING EFFECT',
+      detail:
+        'Sliders can run slideshows automatically without user input on pre-defined time intervals and also respond to user interaction like click.',
+      link: 'https://zee-al-eid.github.io/shuffle-slider/slider.html',
+      link2: 'https://github.com/Zee-al-eid/shuffle-slider'
+    },
+    menuHover: {
+      title: 'Menu Hover Effect',
+      tag: 'AWESOME NAVBAR MENU HOVER EFFECT',
+      detail:
+        'An Amazing Navbar for a website is very beneficial and important for the overall user experience.',
+      link: 'https://zee-al-eid.github.io/menu-hover-effect/index.html',
+      link2: 'https://github.com/Zee-al-eid/menu-hover-effect'
+    },
+    cardHover: {
+      title: 'Card Hover Effect',
+      tag: 'DEPTH OF FIELD CARD HOVER EFFECT',
+      detail:
+        'Cards are a great way to develop the idea of interaction and can be used in multiple ways to satisfy specific functions.',
+      link: 'https://zee-al-eid.github.io/dof-card-hover-effects/index.html',
+      link2: 'https://github.com/Zee-al-eid/dof-card-hover-effects'
+    },
+    ecommerceCard: {
+      title: 'E-Commerce Card',
+      tag: 'PRODUCT CARD DESIGN',
+      detail:
+        'Ecommerce Product Card Design using Vanilla Tilt.js with full mobile responsiveness.',
+      link: 'https://zee-al-eid.github.io/responsive-ecommerce-product-card/index.html',
+      link2: 'https://github.com/Zee-al-eid/responsive-ecommerce-product-card'
+    },
+    checkBoxUI: {
+      title: 'CheckBox UI',
+      tag: 'CUSTOM CHECKBOX DESIGN',
+      detail:
+        'CheckBoxes are used when looking for yes or no answers. It is necessary to bind custom checkbox with the input for better user experience.',
+      link: 'https://zee-al-eid.github.io/check-box-ui/index.html',
+      link2: 'https://github.com/Zee-al-eid/check-box-ui'
     }
   };
 
@@ -78,7 +137,7 @@ $(document).ready(function() {
   });
 
   var carousel = $('#carousel'),
-    slideWidth = 700,
+    slideWidth = 600,
     threshold = slideWidth / 3,
     dragStart,
     dragEnd;
@@ -167,7 +226,7 @@ $(document).ready(function() {
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          "url('img/slides/" + id + '-' + index + ".png') center center/cover",
         backgroundSize: 'cover'
       });
     });

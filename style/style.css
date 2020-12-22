@@ -1,36 +1,40 @@
-* {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;}
-.page-link,.hamburger,.close,.work-arrow,.arrow,.arr,input[type=text],input[type=email],textarea,.filter{cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur119.cur), auto !important;}
-.button,.button2, .icon, .fa, .exlink, .close img {
-  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;}
+* {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
+}
+.page-link,
+.hamburger,
+.close,
+.work-arrow,
+.arrow,
+.arr,
+input[type="text"],
+input[type="email"],
+textarea,
+.filter {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur119.cur), auto !important;
+}
+.button,
+.button2,
+.icon,
+.fa,
+.exlink,
+.close img {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;
+}
 
-.hamburger{
+.hamburger {
   margin-top: 15px;
 }
-.work-arrow{
-  margin-right: 7px;
+.work-arrow {
+  margin-right: 6px;
 }
-#blog{background-color: #f5f5f5;}
-.first2icons{
+#blog {
+  background-color: #f5f5f5;
+}
+.first2icons {
   margin-top: 1.1vh;
 }
 
-html{ 
-  --scrollbarBG: #CFD8DC;
-  --thumbBG: #90A4AE;}
-body::-webkit-scrollbar {
-  width: 11px;}
-  body::-webkit-scrollbar-track {
-  background: var(--scrollbarBG);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
-  border-radius: 6px;
-  border: 3px solid var(--scrollbarBG);
-}
-body {
-  scrollbar-width: thin;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-}
 @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-Regular.ttf");
@@ -189,7 +193,8 @@ body {
   width: 100vw;
 }
 
-.button, .button2 {
+.button,
+.button2 {
   border: 2px solid #fff;
   box-sizing: inherit;
   cursor: pointer;
@@ -198,11 +203,13 @@ body {
   padding: 10px 20px;
   transition: all 0.5s;
 }
-.button:hover, .button2:hover {
+.button:hover,
+.button2:hover {
   background-color: #04c2c9;
   border-color: #04c2c9;
 }
-.button .mdi, .button2 .mdi{
+.button .mdi,
+.button2 .mdi {
   vertical-align: middle;
 }
 
@@ -439,6 +446,8 @@ nav .active {
   right: 10px;
 }
 .modal-wrap .info-box {
+  position: absolute;
+  bottom: 0px;
   border-top: 3px solid #1b242f;
   box-sizing: border-box;
   color: #444;
@@ -483,7 +492,7 @@ nav .active {
   transition: all 0.5s;
   visibility: hidden;
 }
- .modal-wrap .button2 {
+.modal-wrap .button2 {
   background: #e31b6d;
   border: 0;
   bottom: 20px;
@@ -498,13 +507,17 @@ nav .active {
   transition: all 0.5s;
   visibility: hidden;
 }
-.modal-wrap .button.visible, .modal-wrap .button2.visible {
+.modal-wrap .button.visible,
+.modal-wrap .button2.visible {
   pointer-events: initial;
   visibility: visible;
 }
-.modal-wrap .button:hover,.modal-wrap .button2:hover {
-  background: #fff;
-  color: #e31b6d;
+.modal-wrap .button:hover,
+.modal-wrap .button2:hover {
+  transform: scale(1.05);
+  background: #d41d69;
+  color: #ffffff;
+  border: 1px solid #262f38;
 }
 
 .modal-wrap .carousel {
@@ -555,18 +568,21 @@ section:nth-of-type(1) .hexagon {
 section:nth-of-type(1) .hexagon:hover {
   transform: rotate(540deg);
 }
-section:nth-of-type(1) .button,section:nth-of-type(1) .button {
+section:nth-of-type(1) .button,
+section:nth-of-type(1) .button {
   margin-bottom: 53px;
   padding: 12px 40px 12px 15px;
   position: relative;
 }
-section:nth-of-type(1) .button .mdi, section:nth-of-type(1) .button2 .mdi {
+section:nth-of-type(1) .button .mdi,
+section:nth-of-type(1) .button2 .mdi {
   position: absolute;
   right: 15px;
   top: 11px;
   transition: transform 0.3s;
 }
-section:nth-of-type(1) .button:hover .mdi, section:nth-of-type(1) .button2:hover .mdi{
+section:nth-of-type(1) .button:hover .mdi,
+section:nth-of-type(1) .button2:hover .mdi {
   transform: rotate(90deg);
 }
 section:nth-of-type(2) .label-wrap .label {
@@ -766,40 +782,49 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../img/thumb-1.jpg") center center/cover;
+  background: url("../img/thumb-1.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("../img/thumb-2.jpg") center center/cover;
+  background: url("../img/thumb-2.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("../img/thumb-3.jpg") center center/cover;
+  background: url("../img/thumb-3.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("../img/thumb-4.jpg") center center/cover;
+  background: url("../img/thumb-4.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("../img/thumb-5.jpg") center center/cover;
+  background: url("../img/thumb-5.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/thumb-6.jpg") center center/cover;
+  background: url("../img/thumb-6.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("../img/thumb-7.jpg") center center/cover;
+  background: url("../img/thumb-7.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url("../img/thumb-8.jpg") center center/cover;
+  background: url("../img/thumb-8.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url("../img/thumb-9.jpg") center center/cover;
+  background: url("../img/thumb-9.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url("../img/thumb-10.html") center center/cover;
+  background: url("../img/thumb-10.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url("../img/thumb-11.html") center center/cover;
+  background: url("../img/thumb-11.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url("../img/thumb-12.html") center center/cover;
+  background: url("../img/thumb-12.png") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(13) .card {
+  background: url("../img/thumb-13.png") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(14) .card {
+  background: url("../img/thumb-14.png") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(15) .card {
+  background: url("../img/thumb-15.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -889,8 +914,8 @@ section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
 }
-section:nth-of-type(5) input[type=text],
-section:nth-of-type(5) input[type=email],
+section:nth-of-type(5) input[type="text"],
+section:nth-of-type(5) input[type="email"],
 section:nth-of-type(5) textarea {
   background: #1e242c;
   border: 0;
@@ -1017,7 +1042,7 @@ footer .footnote .highlight {
   }
 }
 @media screen and (max-width: 598px) {
-.upicons{
+  .upicons {
     width: 50px;
     height: 50px;
   }
@@ -1049,21 +1074,24 @@ footer .footnote .highlight {
   }
 
   .slide,
-.carousel-wrap {
-    height: 450px;
+  .carousel-wrap {
+    height: 375px;
   }
 
   .mdi-chevron-left,
-.mdi-chevron-right {
+  .mdi-chevron-right {
     font-size: 25pt !important;
   }
 
   .modal-wrap .modal {
     height: initial;
-    top: -6vh;
+    max-height: 614px;
+    min-height: 614px;
+    margin: auto;
   }
   .modal-wrap .info-box {
-    padding: 35px 60px 90px 25px;
+    max-height: 264px;
+    padding: 10px 60px 90px 25px;
   }
   .modal-wrap .title {
     font-size: 22pt;
@@ -1079,6 +1107,9 @@ footer .footnote .highlight {
   }
   .modal-wrap .close {
     right: 25px;
+  }
+  .modal-wrap .close:hover {
+    transform: scale(1.2);
   }
   .modal-wrap .button {
     left: 25px;
@@ -1118,10 +1149,12 @@ footer .footnote .highlight {
     font-size: 32pt;
     line-height: 36pt;
   }
-  section:nth-of-type(1) .button, section:nth-of-type(1) .button2 {
+  section:nth-of-type(1) .button,
+  section:nth-of-type(1) .button2 {
     padding: 12px 50px 12px 20px;
   }
-  section:nth-of-type(1) .button .mdi, section:nth-of-type(1) .button2 .mdi {
+  section:nth-of-type(1) .button .mdi,
+  section:nth-of-type(1) .button2 .mdi {
     top: 16px;
   }
   section:nth-of-type(2) .label-wrap .label {
