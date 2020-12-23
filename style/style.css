@@ -1040,6 +1040,11 @@ footer .footnote .highlight {
   section:nth-of-type(3) #gallery .mix .card {
     width: 100vw;
   }
+  .info-box{
+  	max-height: 530px;
+  	height: 530px;
+  	min-height: 530px;
+  }
 }
 @media screen and (max-width: 598px) {
   .upicons {
@@ -1048,6 +1053,7 @@ footer .footnote .highlight {
   }
   .info-box{
   	max-height: 530px;
+  	height: 530px;
   	min-height: 530px;
   }
 }
