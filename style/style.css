@@ -1046,6 +1046,9 @@ footer .footnote .highlight {
     width: 50px;
     height: 50px;
   }
+  .info-box{
+  	max-height: 530px;
+  }
 }
 @media screen and (min-width: 600px) {
   body {
