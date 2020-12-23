@@ -1048,6 +1048,7 @@ footer .footnote .highlight {
   }
   .info-box{
   	max-height: 530px;
+  	min-height: 530px;
   }
 }
 @media screen and (min-width: 600px) {
